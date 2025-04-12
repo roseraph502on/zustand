@@ -1,0 +1,41 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.CountBox{
+  background-color: #ffffff;
+}
+button{
+  border-radius: 0;
+  text-align: center;  
+}
+button:hover{
+  border: none;
+  background-color: rgb(231, 209, 251);
+}
+.reset{
+  width: 100%;
+}
+.first{width: 20%;}
+.second{width: 35%;}
+.third{width: 40%;}
+
+.increase >.first{
+background-color: rgb(211, 211, 251);
+}
+.increase >.second{
+background-color: rgb(196, 196, 255);
+}
+.increase >.third{
+background-color: rgb(176, 176, 255);
+}
+.decrease >.first{
+background-color: rgb(251, 211, 211);
+}
+.decrease >.second{
+background-color: rgb(255, 196, 196);
+}
+.decrease >.third{
+background-color: rgb(255, 176, 176);
+}
