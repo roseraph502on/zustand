@@ -2,13 +2,16 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-color: #ffffff;
+  color: #000;
 }
 .CountBox{
   background-color: #ffffff;
 }
 button{
   border-radius: 0;
-  text-align: center;  
+  text-align: center; 
+  line-height: 100%; 
 }
 button:hover{
   border: none;
@@ -17,9 +20,10 @@ button:hover{
 .reset{
   width: 100%;
 }
-.first{width: 20%;}
-.second{width: 35%;}
-.third{width: 40%;}
+.first{width: 20%; height: 100%;}
+.second{width: 35%;height: 100%;
+}
+.third{width: 40%; height: 100%;}
 
 .increase >.first{
 background-color: rgb(211, 211, 251);
