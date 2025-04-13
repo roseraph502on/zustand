@@ -13,10 +13,7 @@ button{
   text-align: center; 
   line-height: 100%; 
 }
-button:hover{
-  border: none;
-  background-color: rgb(231, 209, 251);
-}
+
 .reset{
   width: 100%;
 }
@@ -26,7 +23,6 @@ button:hover{
 .third{width: 40%; height: 100%;}
 
 .increase >.first{
-  height: 100%;
 background-color: rgb(211, 211, 251);
 }
 .increase >.second{
